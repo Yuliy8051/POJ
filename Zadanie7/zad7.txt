@@ -1,0 +1,3 @@
+1. methodTwo
+2. methodFour
+3. robą problemy z relacjami
