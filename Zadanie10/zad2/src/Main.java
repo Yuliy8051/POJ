@@ -11,10 +11,14 @@ public class Main {
             if (filePaths != null)
                 num[i] = filePaths.length;
         }
-        int max = Integer.MIN_VALUE;
+        int maxNum = Integer.MIN_VALUE;
+        int maxIndex = Integer.MIN_VALUE;
         for (int i = 0; i < num.length; i++) {
-            if (max < num[i]) max = i;
+            if (maxNum < num[i]){
+                maxNum = num[i];
+                maxIndex = i;
+            }
         }
-        System.out.println(dirs[max].getName());
+        System.out.println(dirs[maxIndex].getName());
     }
 }
